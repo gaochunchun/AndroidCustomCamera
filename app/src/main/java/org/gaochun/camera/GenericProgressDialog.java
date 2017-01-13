@@ -1,5 +1,7 @@
 package org.gaochun.camera;
 
+import org.gaochun.camera.R;
+
 import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
@@ -25,7 +27,7 @@ public class GenericProgressDialog extends AlertDialog {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.view_progress_dialog);
+        setContentView(R.layout.progress_dialog);
         mProgress = (ProgressBar) findViewById(android.R.id.progress);
         mMessageView = (TextView) findViewById(R.id.message);
 
@@ -47,6 +49,7 @@ public class GenericProgressDialog extends AlertDialog {
     public void setMessage(CharSequence message) {
         mMessage = message;
     }
+
 
     /**
      * 圈圈可见性设置

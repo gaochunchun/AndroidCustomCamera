@@ -1,5 +1,7 @@
 package org.gaochun.camera;
 
+import org.gaochun.camera.R;
+
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,9 +11,8 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
-/**
- * Created by gaochun on 2016/11/14.
- */
+
+
 public class CameraGrid extends View {
 
     private int topBannerWidth = 0;
@@ -46,6 +47,7 @@ public class CameraGrid extends View {
     //画一个井字,上下画两条灰边，中间为正方形
     @Override
     protected void onDraw(Canvas canvas) {
+
         super.onDraw(canvas);
         int width = this.getWidth();
         int height = this.getHeight();
@@ -80,6 +82,7 @@ public class CameraGrid extends View {
     public int getTopWidth() {
         return topBannerWidth;
     }
+
 
     /**
      * 根据手机的分辨率从 dp 的单位 转成为 px(像素)
