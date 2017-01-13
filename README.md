@@ -5,6 +5,8 @@ Android自定义相机
 
 博客：http://blog.csdn.net/gao_chun/article/details/48246871
 
+注：测试机-------> 小米2A、红米、华为P8、华为荣耀3C、魅蓝note2、360N4
+
 #效果图
 
 ![](screenshots/1.png)
