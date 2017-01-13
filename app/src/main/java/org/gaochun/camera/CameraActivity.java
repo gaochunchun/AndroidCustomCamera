@@ -40,7 +40,14 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
-
+/**
+ * ===========================================
+ * 作    者：gao_chun
+ * 版    本：1.0
+ * 创建日期：2017-1-10.
+ * 描    述：
+ * ===========================================
+ */
 public class CameraActivity extends Activity implements View.OnTouchListener,OnClickListener {
 
 	public static final String CAMERA_PATH_VALUE1 = "PHOTO_PATH";
